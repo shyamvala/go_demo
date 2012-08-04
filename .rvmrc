@@ -1,0 +1,5 @@
+rvm use 1.9.3@go_demo --create
+
+if ! command -v bundle ; then
+  gem install bundler
+fi
